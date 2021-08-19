@@ -159,7 +159,8 @@ rt {
   font-size: 2rem;
   margin-bottom: 16px;
 }
-.item-info small, address {
+.item-info small,
+address {
   display: block;
   word-wrap:break-word;
   color: var(--font-color2);
@@ -167,10 +168,12 @@ rt {
   font-size: .8rem;
   line-height: 1.7;
 }
-.item-info small a, address a{
+.item-info small a,
+address a{
   text-decoration: underline;
 }
-.item-info small a:hover, address a:hover {
+.item-info small a:hover,
+address a:hover {
   opacity: .6;
 }
 .item-info p {
@@ -191,7 +194,8 @@ rt {
   font-weight: normal;
   line-height: 1.7;
 }
-.fa-envelope:hover, .fa-wordpress:hover {
+.fa-envelope:hover,
+.fa-wordpress:hover {
   color: var(--font-color2);
 }
 .fa-twitter:hover {

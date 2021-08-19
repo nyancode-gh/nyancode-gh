@@ -7,3 +7,5 @@ function today() {
   date = now.getDate();
   return `${year}年${mon}月${date}日`; 
 }
+//年
+document.getElementById('viewYear').innerHTML = new Date().getFullYear();
